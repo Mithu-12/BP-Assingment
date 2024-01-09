@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOD CRISPER@</title>
+    <script src="https://kit.fontawesome.com/e9d5789012.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container flex gap-5 ">
+                
+                <h2 class="text-1xl font-bold">CRISPER@</h2>
+                <ul>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">REWARDS</a></li>
+                    <li><a href="#">LOCATION</a></li>
+                    <li><a href="#">GIFT CARTS</a></li>
+                    <li><a href="#">LOG IN</a></li>
+                </ul>
+            </div>
+            <div class=" flex gap-10">
+                <div class="cartIcons">
+                    <span class="relative"><i class="fas fa-shopping-cart text-2xl"></i></span>
+                <button class="bg-red-500 px-3 py-1 rounded absolute mt-n5 ml-n3" id="cartIconButton">0</button>
+                </div>
+                <button class="bg-red-500 px-3 py-1 rounded mx-2" id="cartNavButton">Order Now</button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mx-auto my-8">
+
+        <h1 class="text-red-500 text-center text-3xl font-bold">CHICKEN CRISPER@ COMBOS</h1>
+        <P class="text-center">Succulent salmon steak seasoned with herbs and grilled to perfection.</P>
+        
+        <div id="content" class="flex gap-10">
+
+        </div>
+        <div id="sidebarContainer">
+            <button id="closeSidebar">Close</button>
+            <div id="sidebar">
+                <h2 id="noItems"></h2>
+            </div>
+           
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
